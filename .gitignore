@@ -1,2 +1,13 @@
-﻿.env
+﻿# env / secrets
+.env
 .env.*
+
+# build artifacts
+out/*.csv
+out/*.log
+__pycache__/
+*.pyc
+
+# editor junk
+.DS_Store
+Thumbs.db

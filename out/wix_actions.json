@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "url": "/",
     "title": "Green Hydrogen & Solar Power Consulting | ReneEnergy Project Development",
@@ -30,7 +30,7 @@
   {
     "url": "/services",
     "title": "Renewable Energy Consulting Services | Solar & Green Hydrogen Solutions",
-    "description": "Consulting across green hydrogen, solar power, and sustainabilityfeasibility, financial modeling, design, and implementation.",
+    "description": "Consulting across green hydrogen, solar power, and sustainability  feasibility, financial modeling, design, and implementation.",
     "indexable": true,
     "canonical": "/services",
     "ogImage": "https://www.reneenergy.com/static/og/services.png"
@@ -38,7 +38,7 @@
   {
     "url": "/services/green-hydrogen",
     "title": "Green Hydrogen Project Development Consulting | Feasibility Studies & Financial Modeling",
-    "description": "Professional green hydrogen project development consulting servicesfeasibility studies, financial modeling, regulatory compliance, and implementation strategies.",
+    "description": "Professional green hydrogen project development consulting services  feasibility studies, financial modeling, regulatory compliance, and implementation strategies.",
     "indexable": true,
     "canonical": "/services/green-hydrogen",
     "ogImage": "https://www.reneenergy.com/static/og/green-hydrogen.png",
@@ -55,7 +55,7 @@
   {
     "url": "/services/solar",
     "title": "Solar Power Consulting Services | System Design, ROI Analysis & Project Management",
-    "description": "Comprehensive solar consultingsystem design, ROI analysis, installation oversight, and project management for residential and commercial projects.",
+    "description": "Comprehensive solar consulting  system design, ROI analysis, installation oversight, and project management for residential and commercial projects.",
     "indexable": true,
     "canonical": "/services/solar",
     "ogImage": "https://www.reneenergy.com/static/og/solar.png",

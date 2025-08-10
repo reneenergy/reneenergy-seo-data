@@ -1,0 +1,15 @@
+﻿{
+  "site": {
+    "canonicalBase": "https://www.reneenergy.com",
+    "sitemap": "https://www.reneenergy.com/sitemap.xml",
+    "brandSuffix": " | ReneEnergy",
+    "defaultOgImage": "https://www.reneenergy.com/static/og/default.png"
+  },
+  "rules": {
+    "titleMax": 60,
+    "descMin": 140,
+    "descMax": 160,
+    "noindexPaths": ["/login", "/account", "/cart"]
+  },
+  "sections": { "blogPrefix": "/blog/" }
+}

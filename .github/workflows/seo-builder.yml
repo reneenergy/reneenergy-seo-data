@@ -1,0 +1,32 @@
+﻿name: SEO Builder
+on:
+  schedule:
+    - cron: "17 3 * * *"   # daily 03:17 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
+      - name: Run SEO builder
+        run: python tools/seo_build.py
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore(seo): update out/wix_actions.json"
+          title: "SEO: Auto-update wix_actions.json"
+          body: "Automated SEO pass: titles/descriptions/canonicals/JSON-LD/OG."
+          branch: "seo/auto-update"
+          delete-branch: true
