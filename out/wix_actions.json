@@ -1,1 +1,37 @@
-﻿[PASTE THE JSON ABOVE EXACTLY]
+﻿[
+  {
+    "url": "/",
+    "title": "Home",
+    "description": "Home page",
+    "indexable": true,
+    "canonical": "/",
+    "ogImage": "/static/og/home.png",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ReneEnergy",
+      "url": "https://www.reneenergy.com/"
+    }
+  },
+  {
+    "url": "/about",
+    "title": "About ReneEnergy",
+    "description": "Who we are and what we do.",
+    "indexable": true,
+    "canonical": "/about",
+    "ogImage": "/static/og/about.png",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "About ReneEnergy",
+      "url": "https://www.reneenergy.com/about"
+    }
+  },
+  {
+    "url": "/blog/*",
+    "title": "ReneEnergy Blog",
+    "description": "Insights on green hydrogen and clean tech.",
+    "indexable": true,
+    "canonical": "/blog"
+  }
+]
